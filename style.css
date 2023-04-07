@@ -9,7 +9,7 @@ body {
 }
 
 .main {
-  margin: 64px auto;
+  margin: 64px auto 64px;
   width: 626px;
   padding: 0 55px;
  
@@ -69,15 +69,26 @@ p strong {
   margin-bottom: 16px;
 }
 .footer {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  gap: 41px;
+  gap: 41px; */
 }
+
 .links a {
-  color: #3F3D56;
   text-decoration: none;
+  color: #3F3D56;
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
   line-height: 147.68%;
+}
+.links a+a {
+  margin-left: 42px;
+}
+
+.footer__img {
+  width: 100vw;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
