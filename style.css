@@ -9,10 +9,8 @@ body {
 }
 
 .main {
-  margin: 64px auto 64px;
-  width: 626px;
-  padding: 0 55px;
- 
+  margin: 64px auto 32px;
+  width: 540px; 
 }
 .main__content {
   margin-bottom: 32px;
